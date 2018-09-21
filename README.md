@@ -14,7 +14,7 @@ To compile the library with Visual Studio you need to do a whole lot of processi
 In order to get and build libartificial you have to do the following (assuming working installation of git)
 
 ```
-git clone https://github.com/jroukis/libartificial.git
+git clone https://github.com/fetacore/libartificial.git
 cd libartificial
 rm -rf .git
 make cpu
@@ -26,7 +26,7 @@ rm -rf libartificial
 After that get the python wrapper
 
 ```
-git clone https://github.com/jroukis/python-libartificial.git
+git clone https://github.com/fetacore/python-libartificial.git
 cd python-libartificial
 rm -rf .git
 mv ../libartificial.* libartificial/shared
