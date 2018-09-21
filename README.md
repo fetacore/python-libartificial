@@ -29,7 +29,7 @@ After that get the python wrapper
 git clone https://github.com/fetacore/python-libartificial.git
 cd python-libartificial
 rm -rf .git
-mv ../libartificial.* libartificial/shared
+mv ../libartificial.* libartificial/shared/libartificial.so
 ```
 
 Afterwards, create a python virtual environment and put the whole folder "libartificial" inside <virtualenv_folder>/lib/python3.6/site-packages
